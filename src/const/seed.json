@@ -1,0 +1,2522 @@
+[
+  {
+    "office_manager": [
+      {
+        "id": "695d75e0-6f95-42e6-bced-a45da7dc804a",
+        "responsibility": "Managing office operations",
+        "created_at": "2023-08-25T08:19:21.367Z",
+        "updated_at": "2023-08-25T06:09:20.660Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c62203b8-0f54-4a0d-9db5-0a8316969b67",
+        "responsibility": "Coordinating meetings and events",
+        "created_at": "2023-08-25T08:29:05.433Z",
+        "updated_at": "2023-08-24T20:46:08.399Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bc4133b-8da2-437f-943b-ab9dc522ddf4",
+        "responsibility": "Supervising administrative staff",
+        "created_at": "2023-08-24T20:52:55.262Z",
+        "updated_at": "2023-08-24T22:46:48.833Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88aad5b5-f43c-4f9a-960e-39ae3519e585",
+        "responsibility": "Maintaining office supplies",
+        "created_at": "2023-08-25T02:22:20.048Z",
+        "updated_at": "2023-08-24T19:42:39.918Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e00cd696-dd01-4e37-b45f-9e907c36568e",
+        "responsibility": "Assisting with budgeting",
+        "created_at": "2023-08-24T19:15:54.492Z",
+        "updated_at": "2023-08-24T14:13:22.464Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "90346c6d-c83e-4fb3-88a3-cde0b74aa3d5",
+        "specialization": "Cardiology",
+        "experience": 9254,
+        "qualification": "MD",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-25T08:50:58.766Z",
+        "updated_at": "2023-08-25T03:18:10.293Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5d6c5e7-19c3-4f7b-ac7b-eb96ba1a71a2",
+        "specialization": "Dermatology",
+        "experience": 79504,
+        "qualification": "DO",
+        "availability": "Tuesday to Saturday",
+        "created_at": "2023-08-25T01:39:10.939Z",
+        "updated_at": "2023-08-24T20:17:42.673Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16290b20-4817-4e71-a054-70e8fd420212",
+        "specialization": "Gastroenterology",
+        "experience": 32464,
+        "qualification": "MBBS",
+        "availability": "Wednesday to Sunday",
+        "created_at": "2023-08-24T22:09:45.026Z",
+        "updated_at": "2023-08-24T23:00:46.937Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a36573bc-476d-42f1-a0a3-8a94a356b820",
+        "specialization": "Neurology",
+        "experience": 82442,
+        "qualification": "PhD",
+        "availability": "Thursday to Monday",
+        "created_at": "2023-08-24T17:46:40.677Z",
+        "updated_at": "2023-08-25T04:53:44.748Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c426b1c3-75ba-42de-965b-2827465ca58e",
+        "specialization": "Oncology",
+        "experience": 26581,
+        "qualification": "MS",
+        "availability": "Friday to Tuesday",
+        "created_at": "2023-08-24T17:44:13.326Z",
+        "updated_at": "2023-08-25T00:58:04.666Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "b5fdedbd-9d7f-4323-a26c-5b32da60b588",
+        "expertise": "Network administration",
+        "availability": "24/7",
+        "created_at": "2023-08-24T14:25:02.203Z",
+        "updated_at": "2023-08-25T03:57:07.424Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec84aada-f6c2-4263-a250-347938294d5f",
+        "expertise": "Database management",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-24T13:24:40.695Z",
+        "updated_at": "2023-08-25T12:55:13.745Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63d19795-cb54-44d9-a3b5-e1f0b219affe",
+        "expertise": "Software development",
+        "availability": "Weekends",
+        "created_at": "2023-08-24T23:19:52.315Z",
+        "updated_at": "2023-08-25T08:01:23.035Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2708204-e135-468d-8527-e861063ae756",
+        "expertise": "Cybersecurity",
+        "availability": "On-call basis",
+        "created_at": "2023-08-24T16:28:08.437Z",
+        "updated_at": "2023-08-25T10:59:28.141Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "802a4a8b-926b-48e3-b49a-e55c0a7bb64f",
+        "expertise": "Cloud computing",
+        "availability": "Business hours",
+        "created_at": "2023-08-24T16:36:09.871Z",
+        "updated_at": "2023-08-24T13:14:29.645Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "83204331-7495-46db-8c38-fc0377cf1888",
+        "date": "2023-08-25T06:49:19.928Z",
+        "time": "2023-08-25T12:54:57.317Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-25T11:25:39.233Z",
+        "updated_at": "2023-08-25T08:41:52.949Z",
+        "medical_staff_id": "d5d6c5e7-19c3-4f7b-ac7b-eb96ba1a71a2",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcb727ed-a098-4b9d-8067-0d3cfa15efd7",
+        "date": "2023-08-25T05:05:44.580Z",
+        "time": "2023-08-25T11:24:08.217Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T15:33:43.610Z",
+        "updated_at": "2023-08-25T10:56:36.019Z",
+        "medical_staff_id": "16290b20-4817-4e71-a054-70e8fd420212",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecc6db9a-fe8f-45f5-9392-02033ad9355d",
+        "date": "2023-08-24T20:02:23.775Z",
+        "time": "2023-08-24T13:41:30.863Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T17:32:26.188Z",
+        "updated_at": "2023-08-25T06:52:25.387Z",
+        "medical_staff_id": "a36573bc-476d-42f1-a0a3-8a94a356b820",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f2841b3-2510-4dd2-84f6-f97e69fd48a7",
+        "date": "2023-08-25T07:31:32.530Z",
+        "time": "2023-08-25T12:14:33.161Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T14:14:04.206Z",
+        "updated_at": "2023-08-24T17:12:02.026Z",
+        "medical_staff_id": "a36573bc-476d-42f1-a0a3-8a94a356b820",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3968bb3b-2e55-4c1d-ac1c-a6743f6fef9f",
+        "date": "2023-08-25T05:08:20.156Z",
+        "time": "2023-08-24T13:54:05.141Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T15:52:42.199Z",
+        "updated_at": "2023-08-24T13:58:54.737Z",
+        "medical_staff_id": "90346c6d-c83e-4fb3-88a3-cde0b74aa3d5",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "60e45f6b-8d42-47b0-85ae-4571931794cd",
+        "email": "Jillian.Kihn@yahoo.com",
+        "firstName": "Selina",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/179.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6021a6d0-ef35-4cd2-98f6-42c667a8e600",
+        "email": "Queenie_Mayer@gmail.com",
+        "firstName": "Gus",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3617470",
+        "tenantId": null
+      },
+      {
+        "reference": "034cab7b-8a2d-4871-bbd9-fb6e5a01e5e3",
+        "email": "Mikayla_Deckow@hotmail.com",
+        "firstName": "Ena",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21102330",
+        "tenantId": null
+      },
+      {
+        "reference": "4dc575e3-4445-49cb-9f38-de8d9e81ab7c",
+        "email": "Houston61@hotmail.com",
+        "firstName": "Casimir",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/514.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "90131e52-9bd9-45ec-9390-6c8fc6998ac8",
+        "email": "Abagail42@yahoo.com",
+        "firstName": "Lera",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/259.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "da1fd11b-14ca-4c02-b9fd-50f866665bf8",
+        "responsibility": "Managing office operations",
+        "created_at": "2023-08-25T05:53:17.576Z",
+        "updated_at": "2023-08-25T08:46:43.341Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7032374a-e541-456d-b876-3a681b8a456e",
+        "responsibility": "Supervising administrative staff",
+        "created_at": "2023-08-25T10:42:03.722Z",
+        "updated_at": "2023-08-25T05:52:39.477Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d629b45f-e908-4fd3-a6d7-9e101e0ae465",
+        "responsibility": "Coordinating meetings and appointments",
+        "created_at": "2023-08-25T06:09:48.705Z",
+        "updated_at": "2023-08-24T16:23:05.853Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e752734f-cf80-48ab-b23a-441d090ca0c6",
+        "responsibility": "Maintaining office supplies",
+        "created_at": "2023-08-25T03:53:53.495Z",
+        "updated_at": "2023-08-25T03:39:44.315Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba17f249-a1d5-4c4d-8ca0-2e3f03a7a7af",
+        "responsibility": "Handling correspondence",
+        "created_at": "2023-08-25T01:47:41.992Z",
+        "updated_at": "2023-08-25T01:00:17.202Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "fbad6437-31d2-4afd-b074-8a51f2d34ef2",
+        "specialization": "Cardiology",
+        "experience": 39521,
+        "qualification": "MD",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-24T14:05:28.903Z",
+        "updated_at": "2023-08-25T07:26:08.021Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1f525d8-e6a0-48d8-ba40-7a8cc93cd193",
+        "specialization": "Pediatrics",
+        "experience": 50761,
+        "qualification": "DO",
+        "availability": "Tuesday to Saturday",
+        "created_at": "2023-08-24T16:28:36.646Z",
+        "updated_at": "2023-08-25T07:03:41.390Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c23c98d1-bfcb-45bb-ba72-1dee7135a0e4",
+        "specialization": "Dermatology",
+        "experience": 3661,
+        "qualification": "MBBS",
+        "availability": "Wednesday to Sunday",
+        "created_at": "2023-08-25T02:10:02.578Z",
+        "updated_at": "2023-08-24T16:38:06.640Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13f0f0ba-10d1-416e-918d-ea86a392250b",
+        "specialization": "Orthopedics",
+        "experience": 33868,
+        "qualification": "MS",
+        "availability": "Thursday to Monday",
+        "created_at": "2023-08-25T00:49:08.777Z",
+        "updated_at": "2023-08-24T19:55:49.795Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7d395c5-5c4d-46e4-8b35-788e85b22d30",
+        "specialization": "Ophthalmology",
+        "experience": 76139,
+        "qualification": "DDS",
+        "availability": "Friday to Tuesday",
+        "created_at": "2023-08-25T10:35:20.015Z",
+        "updated_at": "2023-08-24T23:48:56.489Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "b934586d-4788-41f9-bd25-51154cc790c5",
+        "expertise": "Network administration",
+        "availability": "24/7",
+        "created_at": "2023-08-24T19:51:43.942Z",
+        "updated_at": "2023-08-25T10:49:50.916Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ea3024b-948a-45c3-a8ea-a5af85a973e4",
+        "expertise": "Software troubleshooting",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-24T14:38:47.002Z",
+        "updated_at": "2023-08-25T06:02:43.452Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e4663eb-c68e-4e11-aec5-1b6c4927bfab",
+        "expertise": "Hardware maintenance",
+        "availability": "Weekends only",
+        "created_at": "2023-08-25T03:17:34.301Z",
+        "updated_at": "2023-08-24T15:20:41.292Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ded0f86-2d20-404b-91d5-5371896d0551",
+        "expertise": "Database management",
+        "availability": "On-call basis",
+        "created_at": "2023-08-24T23:16:50.569Z",
+        "updated_at": "2023-08-24T20:52:53.541Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85ee7506-0d0a-4932-969b-082601fa1f92",
+        "expertise": "Cybersecurity",
+        "availability": "Business hours",
+        "created_at": "2023-08-24T19:01:01.278Z",
+        "updated_at": "2023-08-25T00:37:09.294Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "83a7072e-5875-4bb3-a161-57c51fda67d6",
+        "date": "2023-08-25T04:57:24.795Z",
+        "time": "2023-08-25T07:06:44.460Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-25T03:35:32.821Z",
+        "updated_at": "2023-08-25T06:32:53.296Z",
+        "medical_staff_id": "b7d395c5-5c4d-46e4-8b35-788e85b22d30",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b137b907-747e-4a84-bc32-8deb14b9015a",
+        "date": "2023-08-24T22:49:25.351Z",
+        "time": "2023-08-25T03:51:34.123Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-25T01:49:38.694Z",
+        "updated_at": "2023-08-25T05:25:19.648Z",
+        "medical_staff_id": "fbad6437-31d2-4afd-b074-8a51f2d34ef2",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06869284-b204-4d5b-9f2b-532cf474f20a",
+        "date": "2023-08-24T18:58:35.614Z",
+        "time": "2023-08-25T04:43:13.010Z",
+        "status": "Completed",
+        "created_at": "2023-08-25T04:14:26.982Z",
+        "updated_at": "2023-08-25T06:15:34.976Z",
+        "medical_staff_id": "c1f525d8-e6a0-48d8-ba40-7a8cc93cd193",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac0dd613-ec2f-4dec-bfa3-b06ba5671881",
+        "date": "2023-08-25T03:51:27.494Z",
+        "time": "2023-08-25T03:15:54.035Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-25T11:26:49.851Z",
+        "updated_at": "2023-08-25T06:51:21.358Z",
+        "medical_staff_id": "13f0f0ba-10d1-416e-918d-ea86a392250b",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5c8a266-f4c1-4a00-bc61-3d1832fcd1ed",
+        "date": "2023-08-24T13:47:56.284Z",
+        "time": "2023-08-24T16:29:09.393Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T22:33:37.107Z",
+        "updated_at": "2023-08-25T04:06:06.703Z",
+        "medical_staff_id": "c1f525d8-e6a0-48d8-ba40-7a8cc93cd193",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "99b1dfe0-d957-44ab-9777-1d8f0b7c16ad",
+        "email": "Ally.Wiegand4@yahoo.com",
+        "firstName": "Sheridan",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d06ab344-7c03-45f7-a014-6ee42a9af1a5",
+        "email": "Jadon67@yahoo.com",
+        "firstName": "Bettye",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1035.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "91074f07-9aea-4755-ae7d-ec36265ee491",
+        "email": "Julius_Romaguera76@gmail.com",
+        "firstName": "Casey",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1057.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9f4393bf-fc76-49d0-bc42-e7f4ab0a5386",
+        "email": "Brooks80@hotmail.com",
+        "firstName": "Elsie",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/708.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "38a09f78-01a6-442e-a2ac-7d405f593255",
+        "email": "Jada87@hotmail.com",
+        "firstName": "Abner",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/622.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "71d23343-7db2-4280-b48e-8ad6c15700ec",
+        "responsibility": "Managing office operations",
+        "created_at": "2023-08-25T01:47:59.264Z",
+        "updated_at": "2023-08-25T03:35:49.280Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9870c834-a9ea-4146-b30b-33d128e5af82",
+        "responsibility": "Coordinating staff schedules",
+        "created_at": "2023-08-24T20:25:03.484Z",
+        "updated_at": "2023-08-25T09:38:42.592Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a74badf3-f9fb-4594-9e58-fcefcc8c7bc0",
+        "responsibility": "Handling administrative tasks",
+        "created_at": "2023-08-25T02:56:59.620Z",
+        "updated_at": "2023-08-25T08:54:15.079Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe7e4a6b-a0ad-4f85-8ead-b430a22d61da",
+        "responsibility": "Ensuring office supplies are stocked",
+        "created_at": "2023-08-25T11:04:38.017Z",
+        "updated_at": "2023-08-25T13:02:22.488Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3502203-5559-4db6-af92-39daad362349",
+        "responsibility": "Assisting with budgeting",
+        "created_at": "2023-08-25T12:03:02.646Z",
+        "updated_at": "2023-08-25T01:05:13.282Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "cdabeeab-fec2-4dd1-9312-dc436b32c7fe",
+        "specialization": "Cardiology",
+        "experience": 3574,
+        "qualification": "MD",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-25T10:50:30.946Z",
+        "updated_at": "2023-08-24T21:29:25.571Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41458f3d-53bc-4bd5-a793-f01d6b2d6be0",
+        "specialization": "Pediatrics",
+        "experience": 64220,
+        "qualification": "DO",
+        "availability": "Weekends",
+        "created_at": "2023-08-25T00:03:58.303Z",
+        "updated_at": "2023-08-25T02:20:48.038Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cb24e22-a487-4e61-b0cf-546760cd8a5c",
+        "specialization": "Orthopedics",
+        "experience": 99611,
+        "qualification": "MBBS",
+        "availability": "Evenings",
+        "created_at": "2023-08-25T02:01:27.781Z",
+        "updated_at": "2023-08-25T06:44:16.864Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b4ad2b7-f9b0-4fce-ac81-cdfe4db22038",
+        "specialization": "Dermatology",
+        "experience": 8433,
+        "qualification": "BDS",
+        "availability": "On-call",
+        "created_at": "2023-08-25T05:08:27.963Z",
+        "updated_at": "2023-08-24T15:48:03.887Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd3253ee-d953-4f26-84ce-829d0c59ebb6",
+        "specialization": "Neurology",
+        "experience": 13533,
+        "qualification": "PhD",
+        "availability": "Flexible schedule",
+        "created_at": "2023-08-25T12:55:43.100Z",
+        "updated_at": "2023-08-25T10:36:59.341Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "25bcad8c-d8ab-45d8-9861-7f9e83e4e0e2",
+        "expertise": "Network administration",
+        "availability": "24/7",
+        "created_at": "2023-08-25T10:55:49.817Z",
+        "updated_at": "2023-08-25T03:29:59.060Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2bc42a9-ec9e-478d-805c-3ad3ac9a454b",
+        "expertise": "Database management",
+        "availability": "Business hours",
+        "created_at": "2023-08-24T19:04:15.286Z",
+        "updated_at": "2023-08-24T13:58:57.750Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4f8355a-02e7-466b-934d-16e84378bec9",
+        "expertise": "Software development",
+        "availability": "On-site support",
+        "created_at": "2023-08-24T18:27:42.579Z",
+        "updated_at": "2023-08-25T08:53:11.893Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc226dc5-2fae-4d21-8520-08e6f27b5509",
+        "expertise": "Cybersecurity",
+        "availability": "Remote assistance",
+        "created_at": "2023-08-25T01:49:07.768Z",
+        "updated_at": "2023-08-25T09:00:40.675Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1b57959-6f01-482e-8815-1702ec8ad1db",
+        "expertise": "IT infrastructure",
+        "availability": "Emergency response",
+        "created_at": "2023-08-24T15:24:05.548Z",
+        "updated_at": "2023-08-24T17:24:23.656Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "06316eb4-af86-4ab7-9117-e03d44f8d3c4",
+        "date": "2023-08-25T07:33:17.204Z",
+        "time": "2023-08-24T22:36:56.828Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-25T04:15:57.836Z",
+        "updated_at": "2023-08-24T20:19:20.322Z",
+        "medical_staff_id": "5cb24e22-a487-4e61-b0cf-546760cd8a5c",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3158beaf-2b73-4350-bb1c-36d0b12f5bb4",
+        "date": "2023-08-25T11:17:05.101Z",
+        "time": "2023-08-25T06:31:38.653Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-25T02:05:42.942Z",
+        "updated_at": "2023-08-24T23:37:29.129Z",
+        "medical_staff_id": "fd3253ee-d953-4f26-84ce-829d0c59ebb6",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "210abfeb-7f11-4da4-a9b9-18328f0a2138",
+        "date": "2023-08-24T16:32:18.244Z",
+        "time": "2023-08-25T06:38:00.579Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T22:44:59.599Z",
+        "updated_at": "2023-08-25T05:28:35.200Z",
+        "medical_staff_id": "5cb24e22-a487-4e61-b0cf-546760cd8a5c",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa8607ce-5772-445d-8e7e-221ac384d1c8",
+        "date": "2023-08-25T00:19:30.477Z",
+        "time": "2023-08-24T16:51:51.814Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-25T10:06:46.793Z",
+        "updated_at": "2023-08-24T17:12:43.658Z",
+        "medical_staff_id": "cdabeeab-fec2-4dd1-9312-dc436b32c7fe",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "063812bc-e92d-4ffd-98ee-0a48c3d684a3",
+        "date": "2023-08-25T05:57:55.821Z",
+        "time": "2023-08-24T18:52:11.171Z",
+        "status": "No-show",
+        "created_at": "2023-08-24T18:45:23.785Z",
+        "updated_at": "2023-08-25T07:39:33.039Z",
+        "medical_staff_id": "5cb24e22-a487-4e61-b0cf-546760cd8a5c",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "afd7f617-c3e5-4fce-b2e2-1117cb719b0c",
+        "email": "Ervin_McClure@hotmail.com",
+        "firstName": "Jeanie",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d975d625-6e28-4312-bc0e-3e8393ce5903",
+        "email": "Gabrielle6@yahoo.com",
+        "firstName": "Osborne",
+        "lastName": "Considine-Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60088967",
+        "tenantId": null
+      },
+      {
+        "reference": "a77d3c4b-6b1e-40eb-be1b-b77db36c05ff",
+        "email": "Bart_Mann@gmail.com",
+        "firstName": "Gwendolyn",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc95c77f-90c5-4b8b-902e-35b5ff25da1a",
+        "email": "Conner.Christiansen@yahoo.com",
+        "firstName": "Raul",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10037174",
+        "tenantId": null
+      },
+      {
+        "reference": "f3bd5e36-ab50-43ef-a707-dce0f199329b",
+        "email": "Deja48@hotmail.com",
+        "firstName": "Maximillian",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43598942",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "c5c46d2b-9b9d-4ff3-a566-d16f0d48502a",
+        "responsibility": "Overseeing daily operations",
+        "created_at": "2023-08-24T22:48:55.237Z",
+        "updated_at": "2023-08-25T00:43:22.098Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5117971-4c09-447d-a8d2-9cfc2a9092a9",
+        "responsibility": "Managing staff schedules",
+        "created_at": "2023-08-24T14:06:29.292Z",
+        "updated_at": "2023-08-24T21:52:05.264Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "651b6de4-24bd-4c19-8ef7-e94f46707e71",
+        "responsibility": "Handling administrative tasks",
+        "created_at": "2023-08-25T11:07:30.239Z",
+        "updated_at": "2023-08-24T19:05:10.631Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66e33c6b-8bad-4f71-bffd-50ab9e3aa5e4",
+        "responsibility": "Coordinating office supplies",
+        "created_at": "2023-08-24T22:37:02.019Z",
+        "updated_at": "2023-08-25T06:51:43.808Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85f967aa-4d12-4980-a6e8-2224278189e1",
+        "responsibility": "Ensuring smooth workflow",
+        "created_at": "2023-08-25T06:42:09.403Z",
+        "updated_at": "2023-08-24T17:01:53.760Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "1e84423e-13d5-4bcf-906e-ff3eb21432a5",
+        "specialization": "Cardiology",
+        "experience": 89877,
+        "qualification": "MD",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-25T06:37:03.713Z",
+        "updated_at": "2023-08-24T21:55:17.598Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3ffd78c-f8c8-43ff-8716-431e49d6667b",
+        "specialization": "Dermatology",
+        "experience": 18728,
+        "qualification": "DO",
+        "availability": "Weekends only",
+        "created_at": "2023-08-24T23:28:45.851Z",
+        "updated_at": "2023-08-25T09:30:36.320Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3ce123c-7e1c-4d44-bba8-e4d16c28ca0b",
+        "specialization": "Pediatrics",
+        "experience": 18906,
+        "qualification": "MBBS",
+        "availability": "Evenings",
+        "created_at": "2023-08-24T16:25:20.211Z",
+        "updated_at": "2023-08-25T10:59:24.653Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a8c5108-fba9-4e43-a77e-c04243f25468",
+        "specialization": "Orthopedics",
+        "experience": 65915,
+        "qualification": "PhD",
+        "availability": "On-call",
+        "created_at": "2023-08-25T05:54:18.466Z",
+        "updated_at": "2023-08-25T11:20:03.047Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4b9f47a-7be3-4ce3-9e34-63127263b76b",
+        "specialization": "Gynecology",
+        "experience": 52205,
+        "qualification": "DDS",
+        "availability": "Flexible schedule",
+        "created_at": "2023-08-24T22:47:52.268Z",
+        "updated_at": "2023-08-25T11:46:58.459Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "b702a67f-d510-482c-a49c-8afa86180b3c",
+        "expertise": "Network administration",
+        "availability": "24/7",
+        "created_at": "2023-08-25T08:42:13.935Z",
+        "updated_at": "2023-08-24T18:06:10.719Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3b6bd5e-6ab7-461a-91ef-c4d6b02ad84e",
+        "expertise": "Software development",
+        "availability": "Business hours",
+        "created_at": "2023-08-25T07:36:09.029Z",
+        "updated_at": "2023-08-25T12:06:23.481Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd120b37-2fc6-46cd-b8ac-995c598e8f84",
+        "expertise": "Database management",
+        "availability": "On-demand",
+        "created_at": "2023-08-24T18:28:26.458Z",
+        "updated_at": "2023-08-25T10:11:11.070Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d02a26cf-1148-430e-8224-2f0dae472e10",
+        "expertise": "Cybersecurity",
+        "availability": "Remote assistance",
+        "created_at": "2023-08-25T07:44:40.929Z",
+        "updated_at": "2023-08-24T20:52:17.939Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6be232d2-95f6-4693-b6c2-b5f65982a3ba",
+        "expertise": "Technical support",
+        "availability": "Scheduled maintenance",
+        "created_at": "2023-08-24T21:49:26.199Z",
+        "updated_at": "2023-08-25T04:13:12.652Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "ed36428b-299e-48ca-bde5-4405a290e0cb",
+        "date": "2023-08-25T08:28:22.336Z",
+        "time": "2023-08-24T13:24:52.178Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-25T04:50:50.792Z",
+        "updated_at": "2023-08-24T17:04:23.356Z",
+        "medical_staff_id": "e3ce123c-7e1c-4d44-bba8-e4d16c28ca0b",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1428bd9c-889e-4bc7-9d60-8690b60a9370",
+        "date": "2023-08-24T15:25:04.862Z",
+        "time": "2023-08-25T04:49:07.819Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-25T11:46:44.138Z",
+        "updated_at": "2023-08-25T09:37:58.951Z",
+        "medical_staff_id": "1e84423e-13d5-4bcf-906e-ff3eb21432a5",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f27a2ed-36a8-424e-8224-d8d38b4a0df3",
+        "date": "2023-08-25T06:49:38.369Z",
+        "time": "2023-08-24T20:39:05.074Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T20:38:42.760Z",
+        "updated_at": "2023-08-25T07:43:55.913Z",
+        "medical_staff_id": "a3ffd78c-f8c8-43ff-8716-431e49d6667b",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d80fdf40-0f24-4473-83f1-92968e3fc192",
+        "date": "2023-08-25T02:02:25.334Z",
+        "time": "2023-08-24T22:36:28.694Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-25T06:52:34.292Z",
+        "updated_at": "2023-08-24T15:16:20.375Z",
+        "medical_staff_id": "4a8c5108-fba9-4e43-a77e-c04243f25468",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6173338-0b8c-45f6-865c-16f12336f43a",
+        "date": "2023-08-25T08:41:40.962Z",
+        "time": "2023-08-24T14:32:45.196Z",
+        "status": "No-show",
+        "created_at": "2023-08-25T09:12:32.848Z",
+        "updated_at": "2023-08-25T03:38:02.326Z",
+        "medical_staff_id": "a3ffd78c-f8c8-43ff-8716-431e49d6667b",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a490c84a-0149-4322-9ddd-d4acb51c1236",
+        "email": "Fritz_Lueilwitz@gmail.com",
+        "firstName": "Newell",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71511496",
+        "tenantId": null
+      },
+      {
+        "reference": "1478ed56-2d29-49f5-ac98-4344a6c07c1c",
+        "email": "Mya.Douglas@hotmail.com",
+        "firstName": "Meghan",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ec3a23e-19d3-4814-bfcc-d2f8f3f10ef0",
+        "email": "Nasir.Zulauf1@gmail.com",
+        "firstName": "Velva",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/28.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1caaf43a-dd51-43f8-8467-895ebfb8f4ee",
+        "email": "Odessa1@yahoo.com",
+        "firstName": "Orlando",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61329000",
+        "tenantId": null
+      },
+      {
+        "reference": "3ca73de0-985f-40ae-bd74-a6ea4d313708",
+        "email": "Mitchell_Cassin74@hotmail.com",
+        "firstName": "Annie",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33793614",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "5b3996dc-811b-4adc-8a20-3ce0a7dbd500",
+        "responsibility": "Managing daily operations",
+        "created_at": "2023-08-24T14:44:35.554Z",
+        "updated_at": "2023-08-25T03:28:20.951Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89b30528-ce46-4ba0-9d66-e6627b525425",
+        "responsibility": "Coordinating staff schedules",
+        "created_at": "2023-08-24T20:10:36.000Z",
+        "updated_at": "2023-08-25T10:14:19.579Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b88f2b4b-f14f-44ad-834e-cef65d14e179",
+        "responsibility": "Ensuring office supplies are stocked",
+        "created_at": "2023-08-25T06:33:20.949Z",
+        "updated_at": "2023-08-25T07:14:39.015Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a077bea1-2d19-41e7-945e-194d0a0d2ae0",
+        "responsibility": "Handling customer inquiries",
+        "created_at": "2023-08-25T01:31:25.023Z",
+        "updated_at": "2023-08-25T00:10:39.980Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04f00514-7234-44a7-a1d2-70a102b79278",
+        "responsibility": "Organizing office events",
+        "created_at": "2023-08-24T13:18:42.475Z",
+        "updated_at": "2023-08-24T23:19:50.808Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "b3d54fac-f0a0-435b-8d47-8d53c07c913e",
+        "specialization": "Cardiology",
+        "experience": 90249,
+        "qualification": "MD",
+        "availability": "Monday - Friday",
+        "created_at": "2023-08-24T16:02:26.936Z",
+        "updated_at": "2023-08-25T00:51:20.081Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6477cb77-c397-455c-a840-2f036f193287",
+        "specialization": "Dermatology",
+        "experience": 14496,
+        "qualification": "DO",
+        "availability": "Tuesday - Saturday",
+        "created_at": "2023-08-25T07:23:51.738Z",
+        "updated_at": "2023-08-24T14:26:43.432Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ac8f75b-a08a-4697-9adf-1ad84e3de5aa",
+        "specialization": "Endocrinology",
+        "experience": 6975,
+        "qualification": "MBBS",
+        "availability": "Wednesday - Sunday",
+        "created_at": "2023-08-24T15:08:02.239Z",
+        "updated_at": "2023-08-25T09:14:23.175Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4912406-b66c-4e15-b3a6-09e9b38bd70c",
+        "specialization": "Gastroenterology",
+        "experience": 16054,
+        "qualification": "BDS",
+        "availability": "Thursday - Monday",
+        "created_at": "2023-08-24T22:51:03.346Z",
+        "updated_at": "2023-08-25T04:29:40.761Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2f0b472-926a-46b4-8e36-c3f64b137c1b",
+        "specialization": "Neurology",
+        "experience": 45975,
+        "qualification": "PhD",
+        "availability": "Friday - Tuesday",
+        "created_at": "2023-08-24T13:47:02.367Z",
+        "updated_at": "2023-08-25T00:40:31.230Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "c61ef7a1-cbe1-4d10-ad43-6640d03b3b7d",
+        "expertise": "Network administration",
+        "availability": "24/7",
+        "created_at": "2023-08-25T10:54:07.572Z",
+        "updated_at": "2023-08-24T23:45:44.947Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38236257-c1ee-4054-ba32-02e5066dc347",
+        "expertise": "Software development",
+        "availability": "Monday - Friday",
+        "created_at": "2023-08-24T14:20:04.096Z",
+        "updated_at": "2023-08-24T19:02:29.303Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbeeb8b8-8832-47b1-afd4-397777ff1da1",
+        "expertise": "Database management",
+        "availability": "Tuesday - Saturday",
+        "created_at": "2023-08-24T14:52:42.403Z",
+        "updated_at": "2023-08-24T21:16:05.471Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "214448dc-e05e-414e-85e1-f4ab3df22c6f",
+        "expertise": "Cybersecurity",
+        "availability": "Wednesday - Sunday",
+        "created_at": "2023-08-25T08:41:21.556Z",
+        "updated_at": "2023-08-24T13:41:34.391Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9821a5a0-720d-48bc-ae04-f2605309c96d",
+        "expertise": "IT infrastructure",
+        "availability": "Thursday - Monday",
+        "created_at": "2023-08-24T16:51:51.853Z",
+        "updated_at": "2023-08-25T06:21:25.603Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "5b434a0e-10c3-4063-9fc8-825c77315c66",
+        "date": "2023-08-25T01:37:29.098Z",
+        "time": "2023-08-24T15:39:07.773Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-25T08:40:01.747Z",
+        "updated_at": "2023-08-24T21:25:11.684Z",
+        "medical_staff_id": "8ac8f75b-a08a-4697-9adf-1ad84e3de5aa",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8fb749e-53df-477c-a516-d58c5cbc8705",
+        "date": "2023-08-24T16:37:44.138Z",
+        "time": "2023-08-24T21:10:03.475Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T22:43:13.120Z",
+        "updated_at": "2023-08-24T13:30:40.629Z",
+        "medical_staff_id": "6477cb77-c397-455c-a840-2f036f193287",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ef22fa6-bdb5-4015-8474-1b06c02c20c7",
+        "date": "2023-08-25T11:23:05.330Z",
+        "time": "2023-08-25T03:01:24.440Z",
+        "status": "Completed",
+        "created_at": "2023-08-25T11:30:23.055Z",
+        "updated_at": "2023-08-25T03:23:18.681Z",
+        "medical_staff_id": "8ac8f75b-a08a-4697-9adf-1ad84e3de5aa",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e4dfb8f-2fc5-45e0-829e-feab18d2634c",
+        "date": "2023-08-24T16:32:18.355Z",
+        "time": "2023-08-25T08:05:44.660Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T15:50:44.557Z",
+        "updated_at": "2023-08-24T14:01:28.387Z",
+        "medical_staff_id": "b3d54fac-f0a0-435b-8d47-8d53c07c913e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b65f43e-14a6-4516-9956-8e65a8e50362",
+        "date": "2023-08-24T22:26:39.431Z",
+        "time": "2023-08-25T03:41:57.785Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T10:07:23.264Z",
+        "updated_at": "2023-08-25T05:12:50.626Z",
+        "medical_staff_id": "6477cb77-c397-455c-a840-2f036f193287",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "28c9c4a7-31f8-4a70-9e6a-8e0b803b4800",
+        "email": "Bertha_Hermiston56@gmail.com",
+        "firstName": "Kaylah",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1160.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df072ab6-a0ad-476a-9166-c0e735cfab3e",
+        "email": "Edwardo69@gmail.com",
+        "firstName": "Mylene",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75236189",
+        "tenantId": null
+      },
+      {
+        "reference": "da6c7d53-4f44-419b-9d71-f3841317f09d",
+        "email": "Elfrieda22@yahoo.com",
+        "firstName": "Eldora",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12942681",
+        "tenantId": null
+      },
+      {
+        "reference": "93649aa5-2144-44ce-810d-b48c5e224085",
+        "email": "Mossie.Stroman10@gmail.com",
+        "firstName": "Felicita",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82567831",
+        "tenantId": null
+      },
+      {
+        "reference": "471751c3-227a-4a9b-acab-4180d73dca61",
+        "email": "Glennie.Beier@gmail.com",
+        "firstName": "Abbey",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29347568",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "e728f55b-c7db-42de-8905-c365f110727f",
+        "responsibility": "Managing office operations",
+        "created_at": "2023-08-24T21:32:00.101Z",
+        "updated_at": "2023-08-25T06:55:21.438Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52101348-5380-42bf-91f7-43854591222e",
+        "responsibility": "Supervising administrative staff",
+        "created_at": "2023-08-24T23:30:28.144Z",
+        "updated_at": "2023-08-25T06:35:48.072Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dad63c7-b464-42ef-ab3d-53192614d2c0",
+        "responsibility": "Coordinating meetings and events",
+        "created_at": "2023-08-24T22:52:21.964Z",
+        "updated_at": "2023-08-24T18:59:10.732Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4472296f-3114-4265-a210-cec5b683476a",
+        "responsibility": "Maintaining office supplies",
+        "created_at": "2023-08-24T17:52:53.916Z",
+        "updated_at": "2023-08-24T18:45:20.906Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f56ad95-4cda-45ed-928e-1340659fec93",
+        "responsibility": "Assisting with budget planning",
+        "created_at": "2023-08-25T02:17:28.156Z",
+        "updated_at": "2023-08-25T04:57:26.358Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "cccb6571-fe71-443d-8a49-863555d6be21",
+        "specialization": "Cardiology",
+        "experience": 67656,
+        "qualification": "MD",
+        "availability": "Monday - Friday",
+        "created_at": "2023-08-24T20:17:35.202Z",
+        "updated_at": "2023-08-24T15:04:02.756Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01b51c6d-a649-4211-ae73-f6de2599a1e7",
+        "specialization": "Dermatology",
+        "experience": 70965,
+        "qualification": "DO",
+        "availability": "Tuesday - Saturday",
+        "created_at": "2023-08-25T06:12:42.520Z",
+        "updated_at": "2023-08-25T12:24:47.914Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cbfa411-a199-4528-b89a-aad80a1cedf6",
+        "specialization": "Gastroenterology",
+        "experience": 40894,
+        "qualification": "MBBS",
+        "availability": "Wednesday - Sunday",
+        "created_at": "2023-08-25T04:05:30.014Z",
+        "updated_at": "2023-08-25T10:21:28.075Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee026a8b-ecb6-41eb-911d-07d9c8c4f6bb",
+        "specialization": "Neurology",
+        "experience": 83599,
+        "qualification": "PhD",
+        "availability": "Thursday - Monday",
+        "created_at": "2023-08-25T07:11:49.040Z",
+        "updated_at": "2023-08-25T11:38:00.450Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "719710f6-0d51-4d75-891a-ca446f149056",
+        "specialization": "Ophthalmology",
+        "experience": 4427,
+        "qualification": "DMD",
+        "availability": "Friday - Tuesday",
+        "created_at": "2023-08-25T03:20:47.032Z",
+        "updated_at": "2023-08-25T09:43:20.206Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "44e45d0a-e9b3-4b97-8db8-27e646f30372",
+        "expertise": "Network administration",
+        "availability": "24/7",
+        "created_at": "2023-08-25T12:56:55.595Z",
+        "updated_at": "2023-08-25T04:24:00.017Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6378089f-5d40-4bc1-9351-e72da551518c",
+        "expertise": "Database management",
+        "availability": "Monday - Friday",
+        "created_at": "2023-08-25T02:11:55.247Z",
+        "updated_at": "2023-08-24T22:04:18.191Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfff5abc-e359-4268-b3c6-003235ba04da",
+        "expertise": "Software development",
+        "availability": "Weekends",
+        "created_at": "2023-08-24T15:16:39.361Z",
+        "updated_at": "2023-08-24T13:41:06.328Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20a11a45-1472-461b-9749-bcc0297f9069",
+        "expertise": "Cybersecurity",
+        "availability": "On-call",
+        "created_at": "2023-08-24T15:38:56.982Z",
+        "updated_at": "2023-08-24T18:15:15.803Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "857e7f84-9f67-423c-8159-2627528f5bac",
+        "expertise": "IT infrastructure",
+        "availability": "Business hours",
+        "created_at": "2023-08-24T17:31:43.499Z",
+        "updated_at": "2023-08-25T12:23:08.024Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "4f8f726a-60ff-4e8b-93aa-5e730494e466",
+        "date": "2023-08-25T01:47:30.442Z",
+        "time": "2023-08-25T01:02:26.604Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-25T10:17:04.495Z",
+        "updated_at": "2023-08-24T19:02:11.732Z",
+        "medical_staff_id": "719710f6-0d51-4d75-891a-ca446f149056",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8609402d-c8f9-4c52-afc7-ee39cb569625",
+        "date": "2023-08-24T22:30:49.627Z",
+        "time": "2023-08-25T12:06:07.754Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-25T06:52:44.047Z",
+        "updated_at": "2023-08-25T09:52:34.825Z",
+        "medical_staff_id": "9cbfa411-a199-4528-b89a-aad80a1cedf6",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd28b9fd-fcba-42b5-ae05-d1a9e07d572b",
+        "date": "2023-08-25T08:22:02.367Z",
+        "time": "2023-08-25T03:19:57.183Z",
+        "status": "Completed",
+        "created_at": "2023-08-25T05:25:25.819Z",
+        "updated_at": "2023-08-24T22:54:32.358Z",
+        "medical_staff_id": "cccb6571-fe71-443d-8a49-863555d6be21",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e2928d1-add2-4d5d-ae33-58b4fb2eafa3",
+        "date": "2023-08-25T04:47:29.654Z",
+        "time": "2023-08-25T05:37:32.290Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-25T02:40:34.028Z",
+        "updated_at": "2023-08-25T05:11:28.551Z",
+        "medical_staff_id": "cccb6571-fe71-443d-8a49-863555d6be21",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "695a2923-b08e-4872-8dac-ac3faaa36aae",
+        "date": "2023-08-25T11:13:36.425Z",
+        "time": "2023-08-24T20:09:17.163Z",
+        "status": "No-show",
+        "created_at": "2023-08-25T12:13:06.569Z",
+        "updated_at": "2023-08-25T11:11:50.110Z",
+        "medical_staff_id": "cccb6571-fe71-443d-8a49-863555d6be21",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6a919937-6298-4aca-8d2a-59cf8d5f7d16",
+        "email": "Ruby.Bradtke-Mann@yahoo.com",
+        "firstName": "Jason",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8129037",
+        "tenantId": null
+      },
+      {
+        "reference": "cf0b614c-7a86-4ac5-a0ab-11ea668db634",
+        "email": "Mathew50@yahoo.com",
+        "firstName": "Khalid",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/97.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce99b767-9137-4a68-8159-cbb2bca06260",
+        "email": "Tristian81@yahoo.com",
+        "firstName": "Oswald",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8146567",
+        "tenantId": null
+      },
+      {
+        "reference": "2967139d-1b22-42e7-b6e5-91c4e94c67d0",
+        "email": "Tommie64@hotmail.com",
+        "firstName": "Veda",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/36.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca95f292-aec3-4546-9a63-3c48a674046a",
+        "email": "Nettie.Cronin@hotmail.com",
+        "firstName": "Coleman",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/30.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "173a10ed-9181-41b5-8dbe-a977a4f92ec4",
+        "responsibility": "Managing office operations and administrative tasks",
+        "created_at": "2023-08-24T18:08:01.866Z",
+        "updated_at": "2023-08-24T23:27:39.362Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f9a0cfb-dc70-4059-9a09-747ef143f9fd",
+        "responsibility": "Coordinating meetings and appointments",
+        "created_at": "2023-08-25T00:30:42.024Z",
+        "updated_at": "2023-08-25T02:08:47.119Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aac3f83e-1a6f-4b96-98ea-05c4ff19a333",
+        "responsibility": "Handling correspondence and communication",
+        "created_at": "2023-08-25T03:59:38.098Z",
+        "updated_at": "2023-08-25T04:37:14.859Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65f3d4c6-faf3-41ea-8fe3-d47e6d214d34",
+        "responsibility": "Organizing office supplies and equipment",
+        "created_at": "2023-08-25T11:08:41.881Z",
+        "updated_at": "2023-08-25T09:04:29.343Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f3a3e50-7168-47ba-8adf-6a9bf8ef5ff0",
+        "responsibility": "Assisting with budgeting and financial management",
+        "created_at": "2023-08-24T20:02:49.656Z",
+        "updated_at": "2023-08-25T03:59:58.412Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "295ab96f-9758-43cf-be91-22cd55ec036a",
+        "specialization": "Cardiology",
+        "experience": 48991,
+        "qualification": "MD",
+        "availability": "Monday - Friday, 9am - 5pm",
+        "created_at": "2023-08-24T14:50:48.991Z",
+        "updated_at": "2023-08-24T14:27:40.949Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a0f807d-29c9-4bb9-88b0-10f938a613f4",
+        "specialization": "Pediatrics",
+        "experience": 2342,
+        "qualification": "DO",
+        "availability": "Tuesday - Saturday, 8am - 4pm",
+        "created_at": "2023-08-24T16:02:00.815Z",
+        "updated_at": "2023-08-24T21:27:19.522Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80b226ba-b87d-429d-afa2-b61e0370f9ed",
+        "specialization": "Orthopedics",
+        "experience": 38390,
+        "qualification": "MBBS",
+        "availability": "Wednesday - Sunday, 10am - 6pm",
+        "created_at": "2023-08-25T03:57:25.547Z",
+        "updated_at": "2023-08-25T01:36:32.757Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a14d0daf-165b-4f37-ac6b-7998c0f4ef5d",
+        "specialization": "Dermatology",
+        "experience": 24523,
+        "qualification": "DDS",
+        "availability": "Thursday - Monday, 7am - 3pm",
+        "created_at": "2023-08-25T02:24:28.413Z",
+        "updated_at": "2023-08-25T07:47:31.290Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fc36d0e-6d14-4be5-99dd-2e2c96293fdb",
+        "specialization": "Ophthalmology",
+        "experience": 62021,
+        "qualification": "DNP",
+        "availability": "Friday - Tuesday, 11am - 7pm",
+        "created_at": "2023-08-24T23:29:45.051Z",
+        "updated_at": "2023-08-25T08:02:15.291Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "a8791b5c-3223-455c-a748-4fe5863aad59",
+        "expertise": "Network administration",
+        "availability": "24/7",
+        "created_at": "2023-08-24T22:15:43.640Z",
+        "updated_at": "2023-08-24T21:13:51.296Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e832512c-314b-47d4-b53c-cc23812f7669",
+        "expertise": "Software development",
+        "availability": "Monday - Friday, 9am - 5pm",
+        "created_at": "2023-08-24T15:01:43.200Z",
+        "updated_at": "2023-08-25T13:08:02.036Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edffd5dd-b0ec-4967-9aa3-3ba7e0efa4d6",
+        "expertise": "Database management",
+        "availability": "On-call basis",
+        "created_at": "2023-08-24T20:57:29.075Z",
+        "updated_at": "2023-08-25T05:22:20.810Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "533d6dfc-cd3d-4ce4-924e-0298e7c6c08a",
+        "expertise": "Cybersecurity",
+        "availability": "Weekends and holidays",
+        "created_at": "2023-08-25T02:48:49.658Z",
+        "updated_at": "2023-08-25T09:23:52.867Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d857cb12-55cc-4520-bf8a-056d6839ea32",
+        "expertise": "Technical support",
+        "availability": "Flexible schedule",
+        "created_at": "2023-08-24T18:28:37.101Z",
+        "updated_at": "2023-08-25T11:06:36.148Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "7983f422-b952-43c3-8800-e3a166e56455",
+        "date": "2023-08-25T11:17:05.317Z",
+        "time": "2023-08-25T11:22:10.525Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-25T02:16:05.496Z",
+        "updated_at": "2023-08-25T00:52:10.438Z",
+        "medical_staff_id": "a14d0daf-165b-4f37-ac6b-7998c0f4ef5d",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc317c26-cab0-404a-b26d-834e20628fec",
+        "date": "2023-08-25T10:41:39.082Z",
+        "time": "2023-08-25T03:17:15.144Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-25T11:37:54.154Z",
+        "updated_at": "2023-08-25T01:25:53.754Z",
+        "medical_staff_id": "80b226ba-b87d-429d-afa2-b61e0370f9ed",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a93406b-398a-43fa-b1ac-d0d4e31ffbb0",
+        "date": "2023-08-24T15:00:37.501Z",
+        "time": "2023-08-25T09:50:38.875Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T16:56:29.839Z",
+        "updated_at": "2023-08-25T07:06:44.946Z",
+        "medical_staff_id": "295ab96f-9758-43cf-be91-22cd55ec036a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "676c556b-a36e-46dd-8a2b-61887a5ea51f",
+        "date": "2023-08-24T19:06:58.516Z",
+        "time": "2023-08-24T16:23:48.777Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-25T08:26:06.639Z",
+        "updated_at": "2023-08-25T03:19:53.316Z",
+        "medical_staff_id": "80b226ba-b87d-429d-afa2-b61e0370f9ed",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33d87508-f7dd-4150-9d1c-8e6161eb21a4",
+        "date": "2023-08-25T03:44:45.640Z",
+        "time": "2023-08-25T08:08:26.954Z",
+        "status": "No-show",
+        "created_at": "2023-08-25T01:41:15.860Z",
+        "updated_at": "2023-08-25T10:01:55.735Z",
+        "medical_staff_id": "a14d0daf-165b-4f37-ac6b-7998c0f4ef5d",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "92aadebd-b9b9-40c6-b816-d4d22ed15d1d",
+        "email": "Gerry46@yahoo.com",
+        "firstName": "Emiliano",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84655701",
+        "tenantId": null
+      },
+      {
+        "reference": "5baac540-14ac-41ee-91f0-430f8681c58b",
+        "email": "Gloria_Lindgren@gmail.com",
+        "firstName": "Jadyn",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1002.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e31740b-53ab-42ff-89b1-2d59d83ebe70",
+        "email": "Osbaldo33@gmail.com",
+        "firstName": "Teresa",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14251529",
+        "tenantId": null
+      },
+      {
+        "reference": "f95c8e38-ec24-4086-9854-e4292e17c170",
+        "email": "Bobby.Moore@gmail.com",
+        "firstName": "Edythe",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4320326",
+        "tenantId": null
+      },
+      {
+        "reference": "58c36784-6148-479a-8b93-b47da16a4196",
+        "email": "Charity_Rolfson77@gmail.com",
+        "firstName": "Timothy",
+        "lastName": "Lynch-Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39769757",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "ff2b0750-9608-47ae-bbaa-3a4c5d7c0213",
+        "responsibility": "Managing office operations and coordinating administrative tasks",
+        "created_at": "2023-08-24T20:13:27.408Z",
+        "updated_at": "2023-08-24T23:09:14.496Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39faeab9-689c-4941-b36d-6986c0cba774",
+        "responsibility": "Supervising office staff and ensuring smooth workflow",
+        "created_at": "2023-08-24T22:53:23.713Z",
+        "updated_at": "2023-08-24T18:16:14.709Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d28cf64-d851-41e7-a6f0-b2f0e69ebc60",
+        "responsibility": "Handling office budget and expenses",
+        "created_at": "2023-08-24T21:41:30.115Z",
+        "updated_at": "2023-08-24T14:00:01.283Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a8f88d7-7033-4140-bc71-98bfef452561",
+        "responsibility": "Organizing meetings and events",
+        "created_at": "2023-08-24T14:49:29.568Z",
+        "updated_at": "2023-08-24T17:56:54.379Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6025dfea-582f-4516-8798-9c2782c8c585",
+        "responsibility": "Maintaining office supplies and equipment",
+        "created_at": "2023-08-25T06:38:02.389Z",
+        "updated_at": "2023-08-24T13:26:38.744Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "1fce7a2e-d5e6-4d70-9d7c-a8fd6d5e3925",
+        "specialization": "Cardiology",
+        "experience": 34880,
+        "qualification": "MD",
+        "availability": "Monday - Friday, 9am - 5pm",
+        "created_at": "2023-08-24T14:39:29.677Z",
+        "updated_at": "2023-08-25T06:31:32.410Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1d6ac65-edf0-4023-a2e9-6009509f5e4a",
+        "specialization": "Pediatrics",
+        "experience": 8549,
+        "qualification": "DO",
+        "availability": "Tuesday - Saturday, 8am - 4pm",
+        "created_at": "2023-08-25T04:06:12.603Z",
+        "updated_at": "2023-08-25T11:03:47.759Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25326e96-a758-4d1f-af6c-e155d4d789aa",
+        "specialization": "Dermatology",
+        "experience": 68198,
+        "qualification": "MBBS",
+        "availability": "Wednesday - Sunday, 10am - 6pm",
+        "created_at": "2023-08-24T14:12:46.900Z",
+        "updated_at": "2023-08-24T17:41:24.222Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f41e01d-8fdf-4c97-8bb1-4f7f61b4dbf5",
+        "specialization": "Orthopedics",
+        "experience": 55281,
+        "qualification": "PhD",
+        "availability": "Thursday - Monday, 11am - 7pm",
+        "created_at": "2023-08-24T16:49:21.375Z",
+        "updated_at": "2023-08-25T06:07:03.829Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8adbe7d-e9fd-4f68-842f-5b62ce6ae03f",
+        "specialization": "Gynecology",
+        "experience": 23569,
+        "qualification": "DMD",
+        "availability": "Friday - Tuesday, 12pm - 8pm",
+        "created_at": "2023-08-25T00:09:50.090Z",
+        "updated_at": "2023-08-25T09:43:29.906Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "12918ab0-e32a-4221-b311-d4b5fa9852c3",
+        "expertise": "Network Security",
+        "availability": "24/7",
+        "created_at": "2023-08-25T00:52:10.938Z",
+        "updated_at": "2023-08-25T08:18:53.768Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "235e85c3-f08c-4382-804e-425ff8f746bb",
+        "expertise": "Database Management",
+        "availability": "Monday - Friday, 9am - 5pm",
+        "created_at": "2023-08-24T21:45:32.349Z",
+        "updated_at": "2023-08-25T11:43:49.332Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f3f5983-04a1-4277-b37a-c1f23a2aa727",
+        "expertise": "Software Development",
+        "availability": "Tuesday - Saturday, 8am - 4pm",
+        "created_at": "2023-08-24T19:48:43.878Z",
+        "updated_at": "2023-08-25T01:28:29.273Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e178dab8-12b1-40bd-9c81-6833a2c0a89e",
+        "expertise": "Cloud Computing",
+        "availability": "Wednesday - Sunday, 10am - 6pm",
+        "created_at": "2023-08-25T07:25:49.897Z",
+        "updated_at": "2023-08-24T19:16:25.506Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0be2367-5a5d-4eee-bc29-eedc1b00ebdc",
+        "expertise": "IT Infrastructure",
+        "availability": "Thursday - Monday, 11am - 7pm",
+        "created_at": "2023-08-25T06:38:03.689Z",
+        "updated_at": "2023-08-25T08:36:15.101Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "39801ddf-f1f6-4bf2-96d0-1f84621bc855",
+        "date": "2023-08-24T22:18:01.811Z",
+        "time": "2023-08-25T07:37:45.880Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T23:48:05.041Z",
+        "updated_at": "2023-08-25T01:56:31.009Z",
+        "medical_staff_id": "b1d6ac65-edf0-4023-a2e9-6009509f5e4a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "242e635f-53d2-4ea0-a9b0-795e196e912c",
+        "date": "2023-08-25T08:46:53.502Z",
+        "time": "2023-08-25T11:30:23.655Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-25T02:12:02.150Z",
+        "updated_at": "2023-08-24T19:53:20.545Z",
+        "medical_staff_id": "f8adbe7d-e9fd-4f68-842f-5b62ce6ae03f",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0db43d37-af0e-4449-b334-355613496159",
+        "date": "2023-08-24T18:17:02.643Z",
+        "time": "2023-08-24T15:56:35.781Z",
+        "status": "Completed",
+        "created_at": "2023-08-25T11:50:22.922Z",
+        "updated_at": "2023-08-24T18:32:27.957Z",
+        "medical_staff_id": "f8adbe7d-e9fd-4f68-842f-5b62ce6ae03f",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c35c9742-67af-4895-b7a4-bb976efc6f73",
+        "date": "2023-08-25T03:47:00.865Z",
+        "time": "2023-08-24T16:41:42.625Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-25T13:04:12.163Z",
+        "updated_at": "2023-08-25T00:14:54.208Z",
+        "medical_staff_id": "b1d6ac65-edf0-4023-a2e9-6009509f5e4a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21d7f772-0282-468b-ae8b-65348c06c92e",
+        "date": "2023-08-25T08:15:01.771Z",
+        "time": "2023-08-25T01:38:19.514Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T16:38:50.801Z",
+        "updated_at": "2023-08-25T00:21:27.451Z",
+        "medical_staff_id": "f8adbe7d-e9fd-4f68-842f-5b62ce6ae03f",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ec6122d8-1e6e-4a64-a8ed-55142ebf06a8",
+        "email": "Marc34@yahoo.com",
+        "firstName": "Selina",
+        "lastName": "Hand-Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e83ae4b7-8739-4143-8641-65ba5b668090",
+        "email": "Lew94@hotmail.com",
+        "firstName": "Tillman",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87015220",
+        "tenantId": null
+      },
+      {
+        "reference": "db1aef28-0b01-4be2-99d2-46e3c6ff45dc",
+        "email": "Terry_Medhurst@hotmail.com",
+        "firstName": "Lillie",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29487211",
+        "tenantId": null
+      },
+      {
+        "reference": "a9e6e592-b8e0-4d43-8124-e6d293e60e30",
+        "email": "Earline39@hotmail.com",
+        "firstName": "Grayson",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cae9c3ae-648c-4cab-b208-a34d3ba266a5",
+        "email": "Terrill.Lynch18@hotmail.com",
+        "firstName": "Eino",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/384.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "2b42753b-2d1c-461b-8896-7b3b37da71b5",
+        "responsibility": "Managing office operations and administrative tasks",
+        "created_at": "2023-08-24T23:23:56.497Z",
+        "updated_at": "2023-08-24T17:23:20.774Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "755717e0-3e68-479e-9cc1-464c95e135ed",
+        "responsibility": "Coordinating schedules and appointments",
+        "created_at": "2023-08-24T17:37:25.300Z",
+        "updated_at": "2023-08-24T19:29:57.702Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32c8b1c4-4e8a-494b-896b-453460329a03",
+        "responsibility": "Supervising office staff and ensuring smooth workflow",
+        "created_at": "2023-08-24T22:23:29.194Z",
+        "updated_at": "2023-08-24T15:47:39.307Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "338be6bb-8282-49e2-bc60-2aa4f43c83ab",
+        "responsibility": "Handling budgeting and financial management",
+        "created_at": "2023-08-24T22:55:45.217Z",
+        "updated_at": "2023-08-24T22:50:23.372Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c541c8b0-ba7e-4aab-a0f6-9f170cbfc1bd",
+        "responsibility": "Implementing and maintaining office policies and procedures",
+        "created_at": "2023-08-25T05:25:16.318Z",
+        "updated_at": "2023-08-24T20:53:30.005Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "5bc11b89-fe60-4795-841e-ffbc6e6aca2d",
+        "specialization": "Cardiology",
+        "experience": 7119,
+        "qualification": "MD",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-24T15:00:16.298Z",
+        "updated_at": "2023-08-25T03:34:16.810Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "666be050-8acb-42ee-a124-282df3fc743b",
+        "specialization": "Dermatology",
+        "experience": 17398,
+        "qualification": "DO",
+        "availability": "Tuesday to Saturday",
+        "created_at": "2023-08-25T07:28:57.770Z",
+        "updated_at": "2023-08-25T09:07:47.979Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7735000-8a1c-4da5-abf8-6ea5bfbaa038",
+        "specialization": "Gastroenterology",
+        "experience": 84860,
+        "qualification": "MBBS",
+        "availability": "Wednesday to Sunday",
+        "created_at": "2023-08-25T00:11:51.434Z",
+        "updated_at": "2023-08-25T11:21:53.608Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "346712b9-9f09-46cb-b3b1-03050e2688be",
+        "specialization": "Neurology",
+        "experience": 79451,
+        "qualification": "PhD",
+        "availability": "Thursday to Monday",
+        "created_at": "2023-08-25T11:33:09.511Z",
+        "updated_at": "2023-08-25T08:38:26.236Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02c6421e-fd29-44d1-8fa0-99160536e17e",
+        "specialization": "Orthopedics",
+        "experience": 22712,
+        "qualification": "MSc",
+        "availability": "Friday to Tuesday",
+        "created_at": "2023-08-25T07:11:45.620Z",
+        "updated_at": "2023-08-24T17:34:47.772Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "e9cb05c2-d290-461a-8d24-4ff66fcbc859",
+        "expertise": "Network Administration",
+        "availability": "24/7",
+        "created_at": "2023-08-25T04:21:27.114Z",
+        "updated_at": "2023-08-25T08:25:18.856Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0740b642-7351-4c4d-bcc1-cdfe6808b1b6",
+        "expertise": "Database Management",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-24T20:17:34.779Z",
+        "updated_at": "2023-08-24T21:02:08.872Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4818c957-d17f-4dc8-8809-e957112e5a87",
+        "expertise": "Software Development",
+        "availability": "Weekends only",
+        "created_at": "2023-08-25T02:03:31.387Z",
+        "updated_at": "2023-08-25T02:43:56.389Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c02b959-54a2-42c1-8d2f-ffe004e03d5f",
+        "expertise": "Cybersecurity",
+        "availability": "On-call basis",
+        "created_at": "2023-08-25T06:51:53.234Z",
+        "updated_at": "2023-08-25T04:32:15.792Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fad98a3-0b7e-4bb9-a2a8-dd97777c4b37",
+        "expertise": "Cloud Computing",
+        "availability": "By appointment",
+        "created_at": "2023-08-24T13:54:46.074Z",
+        "updated_at": "2023-08-24T17:58:52.887Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "a9812522-25e1-4ad6-b43b-13095304cd03",
+        "date": "2023-08-25T02:06:59.338Z",
+        "time": "2023-08-24T18:38:00.995Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T23:40:20.404Z",
+        "updated_at": "2023-08-25T04:22:21.376Z",
+        "medical_staff_id": "f7735000-8a1c-4da5-abf8-6ea5bfbaa038",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9bd7cfd-c524-4f6f-b270-e3190b5b9363",
+        "date": "2023-08-25T01:06:51.288Z",
+        "time": "2023-08-25T02:32:02.723Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-25T01:15:50.308Z",
+        "updated_at": "2023-08-24T13:23:00.331Z",
+        "medical_staff_id": "5bc11b89-fe60-4795-841e-ffbc6e6aca2d",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d0ac7d5-7e70-469b-80b1-ccdc0a80ba42",
+        "date": "2023-08-25T07:46:17.111Z",
+        "time": "2023-08-24T15:41:55.206Z",
+        "status": "Completed",
+        "created_at": "2023-08-25T00:40:17.727Z",
+        "updated_at": "2023-08-25T13:04:24.847Z",
+        "medical_staff_id": "666be050-8acb-42ee-a124-282df3fc743b",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fa784ce-90b3-463b-9b9e-e667f19d6c00",
+        "date": "2023-08-25T00:34:24.175Z",
+        "time": "2023-08-24T15:27:49.047Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T02:38:18.437Z",
+        "updated_at": "2023-08-24T21:14:37.981Z",
+        "medical_staff_id": "5bc11b89-fe60-4795-841e-ffbc6e6aca2d",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c002846-7e91-4075-905f-6a2b5be2ab94",
+        "date": "2023-08-25T10:43:23.709Z",
+        "time": "2023-08-24T16:07:29.579Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-25T05:55:44.519Z",
+        "updated_at": "2023-08-25T01:30:44.351Z",
+        "medical_staff_id": "f7735000-8a1c-4da5-abf8-6ea5bfbaa038",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "28555162-af05-4099-8588-d296d1b3d152",
+        "email": "Mabel_Kerluke70@yahoo.com",
+        "firstName": "Ismael",
+        "lastName": "Dickens-Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/138.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d683e73-6ee7-4fae-9ecc-893a60cdff4e",
+        "email": "Keagan.Luettgen@yahoo.com",
+        "firstName": "Andrew",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97097364",
+        "tenantId": null
+      },
+      {
+        "reference": "646dd132-8707-4855-aeb8-75ec3175e5fd",
+        "email": "Eriberto70@yahoo.com",
+        "firstName": "Nayeli",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92093404",
+        "tenantId": null
+      },
+      {
+        "reference": "4ac68c78-2116-48ee-8f72-01d0794c4f3b",
+        "email": "Ruby.Corwin@hotmail.com",
+        "firstName": "Chloe",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1059.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b822c44-1087-4a8b-bb6a-df957e2e2b11",
+        "email": "Jamie_Kulas@hotmail.com",
+        "firstName": "Harvey",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11739637",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "office_manager": [
+      {
+        "id": "73452903-ab84-4ebf-bbf7-10614d6136c8",
+        "responsibility": "Managing daily operations",
+        "created_at": "2023-08-25T11:39:27.342Z",
+        "updated_at": "2023-08-25T02:55:15.166Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "709dc354-0d74-46f3-8e7d-ea452fcae986",
+        "responsibility": "Overseeing administrative tasks",
+        "created_at": "2023-08-25T05:45:34.885Z",
+        "updated_at": "2023-08-24T20:04:10.726Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23e451e3-4786-4eb2-a820-4e2b102e83df",
+        "responsibility": "Coordinating staff schedules",
+        "created_at": "2023-08-24T21:13:45.108Z",
+        "updated_at": "2023-08-25T08:32:28.807Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d65f2e58-b594-479f-989c-c50f04e9d3a6",
+        "responsibility": "Handling office supplies procurement",
+        "created_at": "2023-08-25T09:21:12.991Z",
+        "updated_at": "2023-08-25T03:50:08.971Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cb72ecd-d1d8-4df2-a66a-d4ee5f7b2b24",
+        "responsibility": "Ensuring smooth workflow",
+        "created_at": "2023-08-24T22:15:15.832Z",
+        "updated_at": "2023-08-24T16:30:55.932Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_staff": [
+      {
+        "id": "16ec6fde-493f-4119-bb95-c310d95b7533",
+        "specialization": "Cardiology",
+        "experience": 14958,
+        "qualification": "MD",
+        "availability": "Monday to Friday",
+        "created_at": "2023-08-25T02:26:18.371Z",
+        "updated_at": "2023-08-24T19:29:14.848Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c447b948-a9e5-46fc-a800-4ec7152ac1a3",
+        "specialization": "Pediatrics",
+        "experience": 53271,
+        "qualification": "DO",
+        "availability": "Weekends only",
+        "created_at": "2023-08-24T16:40:23.173Z",
+        "updated_at": "2023-08-25T00:49:26.763Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ad2262e-785d-402a-9136-34810db3121a",
+        "specialization": "Orthopedics",
+        "experience": 89831,
+        "qualification": "MBBS",
+        "availability": "On-call basis",
+        "created_at": "2023-08-25T02:36:38.137Z",
+        "updated_at": "2023-08-24T20:31:32.661Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4497682-eb1f-43ae-b6ac-edb16a0f6026",
+        "specialization": "Dermatology",
+        "experience": 32364,
+        "qualification": "PhD",
+        "availability": "Flexible schedule",
+        "created_at": "2023-08-25T08:06:58.655Z",
+        "updated_at": "2023-08-24T19:58:47.145Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c08c8ea-f41d-4f49-8514-153adfa5b37e",
+        "specialization": "Gynecology",
+        "experience": 71287,
+        "qualification": "MS",
+        "availability": "Part-time",
+        "created_at": "2023-08-25T02:35:10.136Z",
+        "updated_at": "2023-08-24T14:54:06.674Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_support": [
+      {
+        "id": "d804a3cd-c1bd-4995-a6b6-9daea7beb463",
+        "expertise": "Network administration",
+        "availability": "24/7",
+        "created_at": "2023-08-25T06:15:52.166Z",
+        "updated_at": "2023-08-25T06:30:02.903Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf1ef073-4872-458d-87be-dfac2c09a8d1",
+        "expertise": "Database management",
+        "availability": "Business hours",
+        "created_at": "2023-08-24T23:12:55.781Z",
+        "updated_at": "2023-08-25T06:37:14.997Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48282280-f7dc-40a8-a4cb-f9fa0a14b200",
+        "expertise": "Software development",
+        "availability": "On-demand",
+        "created_at": "2023-08-25T12:50:41.961Z",
+        "updated_at": "2023-08-25T09:50:57.101Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6e360c6-c0d5-4a99-b270-f26cf2a6973a",
+        "expertise": "Cybersecurity",
+        "availability": "Remote support",
+        "created_at": "2023-08-25T03:57:32.442Z",
+        "updated_at": "2023-08-24T16:17:59.640Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16dc257c-cefe-4d56-9f59-8a5d1287641b",
+        "expertise": "IT infrastructure",
+        "availability": "On-site support",
+        "created_at": "2023-08-25T10:54:56.016Z",
+        "updated_at": "2023-08-24T16:48:59.609Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "63d7fa4b-cea3-434c-8abe-81d898525baf",
+        "date": "2023-08-24T13:36:37.479Z",
+        "time": "2023-08-24T23:26:13.301Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-25T08:51:42.729Z",
+        "updated_at": "2023-08-24T21:30:29.954Z",
+        "medical_staff_id": "0c08c8ea-f41d-4f49-8514-153adfa5b37e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93d7396d-bbd3-4bb1-8a9e-d083d5829423",
+        "date": "2023-08-24T15:59:26.224Z",
+        "time": "2023-08-25T06:52:18.555Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-25T03:13:43.694Z",
+        "updated_at": "2023-08-24T15:32:35.955Z",
+        "medical_staff_id": "3ad2262e-785d-402a-9136-34810db3121a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4bce077-5b7e-42b2-bff9-e5b9107cd8aa",
+        "date": "2023-08-25T11:10:48.364Z",
+        "time": "2023-08-25T09:14:50.168Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T13:52:26.070Z",
+        "updated_at": "2023-08-24T18:06:37.356Z",
+        "medical_staff_id": "3ad2262e-785d-402a-9136-34810db3121a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87713208-d341-466c-953b-213d808de1ce",
+        "date": "2023-08-25T08:20:47.574Z",
+        "time": "2023-08-25T05:36:28.674Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-25T05:00:28.331Z",
+        "updated_at": "2023-08-25T01:10:06.836Z",
+        "medical_staff_id": "16ec6fde-493f-4119-bb95-c310d95b7533",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c694ba02-5185-443c-9bf3-b75347c9b023",
+        "date": "2023-08-24T17:31:21.736Z",
+        "time": "2023-08-25T12:27:14.605Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T19:37:23.185Z",
+        "updated_at": "2023-08-24T18:00:29.447Z",
+        "medical_staff_id": "0c08c8ea-f41d-4f49-8514-153adfa5b37e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2617f0d9-c0c6-46c2-a661-5c33eb5d7473",
+        "email": "Theron75@gmail.com",
+        "firstName": "Savion",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/853.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9e2214f3-a7cd-40ae-acbc-b13ec5872be9",
+        "email": "Tavares49@hotmail.com",
+        "firstName": "Adelia",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89252128",
+        "tenantId": null
+      },
+      {
+        "reference": "83575be3-de49-4b9e-a54d-35521c7111ad",
+        "email": "Horace.Dach@gmail.com",
+        "firstName": "Mark",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca876104-6f50-4695-981d-5328976deb0b",
+        "email": "Ofelia.Reichel83@gmail.com",
+        "firstName": "Carey",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96534814",
+        "tenantId": null
+      },
+      {
+        "reference": "eace3910-ea23-48c8-a571-174625278dc3",
+        "email": "Lavon.Lehner66@yahoo.com",
+        "firstName": "Alyson",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36418576",
+        "tenantId": null
+      }
+    ]
+  }
+]
